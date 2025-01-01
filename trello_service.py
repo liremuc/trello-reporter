@@ -1,4 +1,5 @@
-﻿class TrelloReportService:
+﻿# -*- coding: utf-8 -*-
+class TrelloReportService:
     def __init__(self, api_key=None, token=None):
         self.api_key = api_key
         self.token = token
